@@ -23,6 +23,5 @@ class Gallery extends Application {
 		//$this->load->view('gallery');
                 $this->data['pagebody'] = 'gallery';
                 $this->render();
-                $autoload['helper'] = array('common', 'url');
 	}
 }

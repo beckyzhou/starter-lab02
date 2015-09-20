@@ -23,6 +23,5 @@ class Welcome extends Application {
 		//$this->load->view('welcome');
                 $this->data['pagebody'] = 'welcome';
                 $this->render();
-                $autoload['helper'] = array('common', 'url');
 	}
 }
